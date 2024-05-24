@@ -16,12 +16,12 @@ namespace Homework_new_heroes
             string message = $"{attacker.Name} attacker {defender.Name} for {attack} points";
             if (defender.IsAlive)
             {
-                message += message + $" but {defender.Name} survived.";
+                message += $" but {defender.Name} survived.";
 
             }
             else
             {
-                message += message + $" and {defender.Name} died.";
+                message += $" and {defender.Name} died.";
             }
             Console.WriteLine(message);
 
